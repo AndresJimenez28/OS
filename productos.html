@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesa.css">
+    <title>Octane Style</title>
+</head>
+
+<body class="fondo-index">
+
+<div class="top-header">
+    <h1 class="titulo">OCTANE STYLE</h1>
+</div>
+
+<header class="header">
+
+    <div class="menu-toggle">☰</div>
+
+    <nav class="nav-banner">
+        <a href="login.html">Login</a>
+        <a href="index.html">Home</a>
+        <a href="productos.html">Productos</a>
+        <a href="carrito.html">Carrito</a>
+        <a href="formulario.html">Registro</a>
+    </nav>
+
+</header>
+
+<section class="hero-slider">
+
+    <div class="slide active" style="background-image: url('images/banner11.png');">
+        <div class="hero-overlay">
+            <h1>PRODUCTOS DE ALTO RENDIMIENTO</h1>
+            <p class="descripcion">
+            Seleccionamos los mejores accesorios tuning para ofrecerte calidad, potencia y estilo en cada producto. Explora nuestra colección y lleva tu vehículo al siguiente nivel.
+            </p>
+        </div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/banner22.png');">
+        <div class="hero-overlay">
+            <h1>POTENCIA TU VEHÍCULO</h1>
+            <p class="descripcion">
+Encuentra rines, suspensión, admisión y más para llevar tu carro al siguiente nivel.
+Rendimiento real. Estilo que se siente.
+</p>
+        </div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/banner33.png');">
+        <div class="hero-overlay">
+            <h1>ARMA TU MÁQUINA</h1>
+            <p class="descripcion">
+Todo lo que necesitas para transformar tu vehículo en una máquina única.
+Más agresivo, más rápido, más tuyo.
+</p>
+     </div>
+    </div>
+
+</section>
+
+<main>
+
+     <section class="marcas">
+    <div class="marcas-container">
+        <img src="images/marca1.png">
+        <img src="images/marca2.png">
+        <img src="images/marca3.png">
+        <img src="images/marca4.png">
+        <img src="images/marca5.png">
+        <img src="images/marca6.png">
+        <img src="images/marca7.png">
+        <img src="images/marca8.png">
+    </div>
+</section>
+
+
+    <div class="contenedor-slider"> 
+    <div class="slider">
+        <div class="slider-track" id="promoTrack">
+            <img src="images/promocion1.png" alt="Promo 1">
+            <img src="images/promocion2.png" alt="Promo 2">
+            <img src="images/promocion3.png" alt="Promo 3">
+            <img src="images/promocion4.png" alt="Promo 1">
+        </div>
+    </div>
+</div>
+    
+
+    <section class="bloque"> 
+
+         <CENTER>    <h1 class="titulo">PRODUCTOS</h1> </CENTER>
+
+        <section id="productosGrid">
+
+            <div class="producto_card">
+                <img src="images/rines.png" alt="Rines">
+                <h3>Rines OZ Racing</h3>
+                <p>Rines OZ Racing 15 con 8´5 pulgadas.</p>
+                <span class="precio">$1.800.000</span>
+                <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+            </div>
+
+            <div class="producto_card">
+                <img src="images/llantas2.png" alt="Llantas">
+                <h3>Llantas ToyoTires</h3>
+                <p>145/55/15</p>
+                <span class="precio">$450.000</span>
+                <button onclick="agregarAlCarrito(2)">Agregar al carrito</button>
+            </div>
+
+            <div class="producto_card">
+                <img src="images/volante.png" alt="Volante">
+                <h3>Volante OMP</h3>
+                <p>Volante tipo D</p>
+                <span class="precio">$350.000</span>
+                <button onclick="agregarAlCarrito(3)">Agregar al carrito</button>
+            </div>
+
+            <div class="producto_card">
+                <img src="images/puntera.png" alt="Puntera">
+                <h3>Puntera Akrapovic</h3>
+                <p>Puntera ajustable doble salida.</p>
+                <span class="precio">$480.000</span>
+                <button onclick="agregarAlCarrito(4)">Agregar al carrito</button>
+            </div>
+
+            <div class="producto_card">
+                <img src="images/suspension.png" alt="Suspensión">
+                <h3>Suspensión Bilstein</h3>
+                <p>Suspensión de alto rendimiento</p>
+                <span class="precio">$520.000</span>
+                <button onclick="agregarAlCarrito(5)">Agregar al carrito</button>
+            </div>
+
+            <div class="producto_card">
+                <img src="images/sillas.png" alt="Sillas">
+                <h3>Sillas bride</h3>
+                <p>Sillas tipo cubo en fibra de carbono</p>
+                <span class="precio">$4'200.000</span>
+                <button onclick="agregarAlCarrito(6)">Agregar al carrito</button>
+            </div>
+
+            <div class="producto_card">
+                <img src="images/sunroof.png" alt="Sunroof">
+                <h3>Sunroof</h3>
+                <p>Sunroof de 3 posiciones</p>
+                <span class="precio">$2'500.000</span>
+                <button onclick="agregarAlCarrito(7)">Agregar al carrito</button>
+            </div>
+
+            <div class="producto_card">
+                <img src="images/coilovers.png" alt="Coilovers">
+                <h3>Coilovers ajustables</h3>
+                <p>Ajustable en altura y dureza</p>
+                <span class="precio">$430.000</span>
+                <button onclick="agregarAlCarrito(8)">Agregar al carrito</button>
+            </div>
+
+            <div class="producto_card">
+                <img src="images/aleron.png" alt="Alerón">
+                <h3>Alerón de fibra de carbono</h3>
+                <p>Alerón de fibra de carbono para mayor aerodinámica</p>
+                <span class="precio">$650.000</span>
+                <button onclick="agregarAlCarrito(9)">Agregar al carrito</button>
+            </div>
+
+            <div class="producto_card">
+                <img src="images/filtro.png" alt="Filtro de aire">
+                <h3>Filtro de aire K&N</h3>
+                <p>Filtro de aire de alto rendimiento</p>
+                <span class="precio">$250.000</span>
+                <button onclick="agregarAlCarrito(10)">Agregar al carrito</button>
+            </div>
+
+        </section>
+
+    </section>
+
+    <section class="marcas">
+    <div class="marcas-container">
+        <img src="images/logo1.png">
+        <img src="images/logo2.png">
+        <img src="images/logo3.png">
+        <img src="images/logo4.png">
+        <img src="images/logo5.png">
+        <img src="images/logo6.png">
+    </div>
+</section>
+
+
+</main>
+
+<section id="contacto" class="contacto-pro">
+
+    <h2>Contáctanos</h2>
+    <p class="subtexto">
+        Estamos listos para ayudarte a llevar tu vehículo al siguiente nivel.
+    </p>
+
+    <div class="contacto-contenido">
+
+        <div class="contacto-info">
+            <p><strong>Email:</strong> contacto@octanestyle.com</p>
+            <p><strong>Teléfono:</strong> +57 300 123 4567</p>
+            <p><strong>Ubicación:</strong> Bogotá, Colombia</p>
+            <p><strong>Horario:</strong> Lunes a Sábado - 9:00 AM a 7:00 PM</p>
+        </div>
+
+        <div class="redes">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/tiktok.png" alt="TikTok"></a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    let slides = document.querySelectorAll(".hero-slider .slide");
+    let index = 0;
+
+    setInterval(() => {
+        slides[index].classList.remove("active");
+        index = (index + 1) % slides.length;
+        slides[index].classList.add("active");
+    }, 4000);
+
+
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".nav-banner");
+
+    toggle.addEventListener("click", () => {
+        nav.classList.toggle("active");
+    });
+
+        const promoTrack = document.getElementById("promoTrack");
+const promoSlides = promoTrack.children;
+
+let promoIndex = 0;
+
+setInterval(() => {
+    promoIndex++;
+
+    if (promoIndex >= promoSlides.length) {
+        promoIndex = 0;
+    }
+
+    promoTrack.style.transform = `translateX(-${promoIndex * 100}%)`;
+}, 4000);
+
+});
+</script>
+
+    <script src="js/carrito.js"></script>
+
+</body>
+</html>

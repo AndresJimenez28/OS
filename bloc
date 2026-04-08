@@ -1,0 +1,105 @@
+</head>
+<body class="fondo-index">
+
+    <section class="bloque">    
+    <h1>PRODUCTOS</h1>
+    </section>
+
+    <section class="bloque">   
+   
+
+</section>  
+
+    <section class="bloque">
+
+        <h2 id="formulario">Formulario de Registro</h2>
+
+
+        <div class="caja-formulario">
+
+            <form action="contactanos.html" method="get">
+
+                <div class="fila">
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Ingresa tu nombre">
+                </div>
+
+                <div class="fila">
+                    <label>Correo:</label>
+                    <input type="email">
+                </div>
+
+                <div class="fila">
+                    <label>Teléfono:</label>
+                    <input type="tel">
+                </div>
+
+                <div class="fila">
+                    <label>Fecha Nacimiento:</label>
+                    <input type="date">
+                </div>
+
+                <div class="fila">
+                    <label>Color Favorito:</label>
+                    <input type="color">
+                </div>
+
+                <div class="fila">
+                    <label>Hora Cita:</label>
+                    <input type="datetime-local">
+                </div>
+
+                <div class="fila">
+                    <label>Tipo Documento:</label>
+                    <select>
+                        <option>Cédula</option>
+                        <option>Tarjeta de Identidad</option>
+                        <option>Pasaporte</option>
+                    </select>
+                </div>
+
+                <div class="fila">
+                    <label>Género:</label>
+                    <div class="opciones">
+                        <input type="radio" name="genero"> Masculino
+                        <input type="radio" name="genero"> Femenino
+                        <input type="radio" name="genero"> Otro
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <label>Intereses:</label>
+                    <div class="opciones">
+                        <input type="checkbox"> Programación
+                        <input type="checkbox"> Diseño
+                    </div>
+                </div>
+
+                <div class="fila mensaje">
+                    <label>Mensaje:</label>
+                    <textarea rows="4"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+<h2 class="titulo-multimedia">Elementos multimedia</h2>
+
+<section class="seccion-multimedia">
+
+    <div class="galeria">
+
+<img src="https://i.imgur.com/J9csWba.jpeg">
+<img src="https://i.imgur.com/cYqaR92.jpeg">
+<img src="https://i.imgur.com/R36Cb0Q.jpeg">
+</div>
+
+</section>
+
+</body>
+</html>
